@@ -8,7 +8,7 @@
         
     </head>
     <body>
-        <h1>Cars</h1>
+        <h1 style="color: darkgreen">Cars</h1>
         {% for car in cars %} <!--ginger syntax-->
         <div class="card m-2" style="width: 18rem;">
             <div class="card-body">
@@ -19,6 +19,10 @@
                 <p class="card-text">
                    ${{ car.model_base_price }}
                 </p>
+                
+                <h6 class="card-subtitle">
+                    {{ car.brand_name }}
+                </h6>
             </div>
         </div>
         {% endfor %}
