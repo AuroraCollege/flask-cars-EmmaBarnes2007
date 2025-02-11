@@ -16,4 +16,8 @@ ul {
     margin-left: 40px;
     font-family: monospace;
     background-color: lightgreen;
+    padding: 10px;
+    border: 2px solid blue;
 }
+
+
