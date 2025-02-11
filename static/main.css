@@ -1,0 +1,19 @@
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline darkblue;
+}
+
+body {
+    background-color: yellow;
+    font-family: "Helvetica", fantasy;
+    border: 4px dotted white;
+}
+
+ul {
+    margin-left: 40px;
+    font-family: monospace;
+    background-color: lightgreen;
+}

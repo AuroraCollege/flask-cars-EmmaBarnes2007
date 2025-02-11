@@ -1,12 +1,15 @@
 <html>
     <head>
+        <link rel=""stylesheet href="static/main.css">
         <title>
             Cars
         </title>
+        
+        
     </head>
     <body>
         <h1>Cars</h1>
-        {% for car in cars %}
+        {% for car in cars %} <!--ginger syntax-->
         <ul>
             {{ car.model_name }} {{ car.model_base_price }}
         </ul>
